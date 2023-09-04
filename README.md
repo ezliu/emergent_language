@@ -31,6 +31,8 @@ wget https://cs.stanford.edu/~evanliu/renders.tar.gz
 tar -xvf renders.tar.gz
 ```
 
+To keep this file small, it contains only 200 of the 500 style transfer signs.
+
 ## Usage
 
 The main two environments can be found in `envs/minworld/office.py` and `envs/office.py`. They define environments with a Gym-like interface, which can be instantiated as follows:
